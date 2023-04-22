@@ -2,240 +2,239 @@ homeassistant:
   customize:
     package.node_anchors:
       customize: &customize
-        Package: 'Contatore Pannelli Solari'
-        Version: '0.1.6'
-        Author: 'Stefano Marchese'
+        Package: 'Solar Panel Meter/Counter'
+        Version: '0.1.7'
+        Author: 'DeFlanko'
         icon: 'mdi:counter'
-        #entity_picture: https://avatars.githubusercontent.com/u/84263865?s=400&v=4
-        reference: 'stepsolar - github chat'
+        reference: 'https://github.com/DeFlanko/hassio-package-panel-solar'
       expose: &expose
         <<: *customize
         haaska_hidden: false
         homebridge_hidden: false
         
         
-    sensor.produzione_giornaliero_panel_1_f1:
+    sensor.daily_production_panel_1_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_2_f1:
+    sensor.daily_production_panel_2_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_3_f1:
+    sensor.daily_production_panel_3_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_4_f1:
+    sensor.daily_production_panel_4_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_5_f1:
+    sensor.daily_production_panel_5_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_6_f1:
+    sensor.daily_production_panel_6_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_7_f1:
+    sensor.daily_production_panel_7_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_8_f1:
+    sensor.daily_production_panel_8_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_9_f1:
+    sensor.daily_production_panel_9_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_10_f1:
+    sensor.daily_production_panel_10_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_11_f1:
+    sensor.daily_production_panel_11_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_12_f1:
+    sensor.daily_production_panel_12_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_13_f1:
+    sensor.daily_production_panel_13_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_14_f1:
+    sensor.daily_production_panel_14_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_15_f1:
+    sensor.daily_production_panel_15_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_16_f1:
+    sensor.daily_production_panel_16_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_17_f1:
+    sensor.daily_production_panel_17_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_18_f1:
+    sensor.daily_production_panel_18_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_19_f1:
+    sensor.daily_production_panel_19_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_20_f1:
+    sensor.daily_production_panel_20_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_21_f1:
+    sensor.daily_production_panel_21_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_22_f1:
+    sensor.daily_production_panel_22_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_23_f1:
+    sensor.daily_production_panel_23_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_24_f1:
+    sensor.daily_production_panel_24_f1:
         <<: *customize
 
 
 
   customize_glob:
-    sensor.produzione_giornaliero_panel_1_f1:
+    sensor.daily_production_panel_1_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_2_f1:
+    sensor.daily_production_panel_2_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_3_f1:
+    sensor.daily_production_panel_3_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_4_f1:
+    sensor.daily_production_panel_4_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_5_f1:
+    sensor.daily_production_panel_5_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_6_f1:
+    sensor.daily_production_panel_6_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_7_f1:
+    sensor.daily_production_panel_7_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_8_f1:
+    sensor.daily_production_panel_8_f1:
         <<: *customize 
-    sensor.produzione_giornaliero_panel_9_f1:
+    sensor.daily_production_panel_9_f1:
         <<: *customize 
-    sensor.produzione_giornaliero_panel_10_f1:
+    sensor.daily_production_panel_10_f1:
         <<: *customize 
-    sensor.produzione_giornaliero_panel_11_f1:
+    sensor.daily_production_panel_11_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_12_f1:
+    sensor.daily_production_panel_12_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_13_f1:
+    sensor.daily_production_panel_13_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_14_f1:
+    sensor.daily_production_panel_14_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_15_f1:
+    sensor.daily_production_panel_15_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_16_f1:
+    sensor.daily_production_panel_16_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_17_f1:
+    sensor.daily_production_panel_17_f1:
         <<: *customize
-    sensor.produzione_giornaliero_panel_18_f1:
+    sensor.daily_production_panel_18_f1:
         <<: *customize 
-    sensor.produzione_giornaliero_panel_19_f1:
+    sensor.daily_production_panel_19_f1:
         <<: *customize 
-    sensor.produzione_giornaliero_panel_20_f1:
+    sensor.daily_production_panel_20_f1:
         <<: *customize 
-    sensor.produzione_giornaliero_panel_21_f1:
+    sensor.daily_production_panel_21_f1:
         <<: *customize 
-    sensor.produzione_giornaliero_panel_22_f1:
+    sensor.daily_production_panel_22_f1:
         <<: *customize 
-    sensor.produzione_giornaliero_panel_23_f1:
+    sensor.daily_production_panel_23_f1:
         <<: *customize 
-    sensor.produzione_giornaliero_panel_24_f1:
+    sensor.daily_production_panel_24_f1:
         <<: *customize 
 
 
 #downloader:
   #download_dir: packages
 utility_meter:
-  produzione_giornaliero_panel_1:
-    source: !secret Pannello1
+  daily_production_panel_1:
+    source: !secret Panel1
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_2:
-    source: !secret Pannello2
+  daily_production_panel_2:
+    source: !secret Panel2
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_3:
-    source: !secret Pannello3
+  daily_production_panel_3:
+    source: !secret Panel3
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_4:
-    source: !secret Pannello4
+  daily_production_panel_4:
+    source: !secret Panel4
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_5:
-    source: !secret Pannello5
+  daily_production_panel_5:
+    source: !secret Panel5
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_6:
-    source: !secret Pannello6
+  daily_production_panel_6:
+    source: !secret Panel6
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_7:
-    source: !secret Pannello7
+  daily_production_panel_7:
+    source: !secret Panel7
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_8:
-    source: !secret Pannello8
+  daily_production_panel_8:
+    source: !secret Panel8
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_9:
-    source: !secret Pannello9
+  daily_production_panel_9:
+    source: !secret Panel9
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_10:
-    source: !secret Pannello10
+  daily_production_panel_10:
+    source: !secret Panel10
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_11:
-    source: !secret Pannello11
+  daily_production_panel_11:
+    source: !secret Panel11
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_12:
-    source: !secret Pannello12
+  daily_production_panel_12:
+    source: !secret Panel12
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_13:
-    source: !secret Pannello13
+  daily_production_panel_13:
+    source: !secret Panel13
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_14:
-    source: !secret Pannello14
+  daily_production_panel_14:
+    source: !secret Panel14
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_15:
-    source: !secret Pannello15
+  daily_production_panel_15:
+    source: !secret Panel15
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_16:
-    source: !secret Pannello16
+  daily_production_panel_16:
+    source: !secret Panel16
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_17:
-    source: !secret Pannello17
+  daily_production_panel_17:
+    source: !secret Panel17
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_18:
-    source: !secret Pannello18
+  daily_production_panel_18:
+    source: !secret Panel18
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_19:
-    source: !secret Pannello19
+  daily_production_panel_19:
+    source: !secret Panel19
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_20:
-    source: !secret Pannello20
+  daily_production_panel_20:
+    source: !secret Panel20
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_21:
-    source: !secret Pannello21
+  daily_production_panel_21:
+    source: !secret Panel21
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_22:
-    source: !secret Pannello22
+  daily_production_panel_22:
+    source: !secret Panel22
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_23:
-    source: !secret Pannello23
+  daily_production_panel_23:
+    source: !secret Panel23
     cycle: daily 
     tariffs:
       - f1
-  produzione_giornaliero_panel_24:
-    source: !secret Pannello24
+  daily_production_panel_24:
+    source: !secret Panel24
     cycle: daily 
     tariffs:
       - f1
@@ -243,497 +242,497 @@ utility_meter:
 
 sensor:
    - platform: rest
-     resource: https://raw.githubusercontent.com/stepsolar/hassio-package-panel-solar/master/versione.json
-     name: Versione pk panel solar
+     resource: https://raw.githubusercontent.com/DeFlanko/hassio-package-panel-solar/master/version.json
+     name: Version pk panel solar
      value_template: '{{ value_json.versione }}'
 
    - platform: rest
-     resource: https://raw.githubusercontent.com/stepsolar/hassio-package-panel-solar/master/versione.json
-     name: tipo aggiornamento pk panel solar
+     resource: https://raw.githubusercontent.com/DeFlanko/hassio-package-panel-solar/master/version.json
+     name: type of update for the pk panel solar
      value_template: '{{ value_json.cosa_aggiornare }}'
 
 
 
    - platform: template
      sensors:
-       panel_1_oggi:
+       panel_1_today:
         friendly_name_template: " Panel 1 Energy "
         unique_id: panel_1_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_1_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_2_oggi:
+       panel_2_today:
         friendly_name_template: " Panel 2 Energy "
         unique_id: panel_2_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_2_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_3_oggi:
+       panel_3_today:
         friendly_name_template: " Panel 3 Energy "
         unique_id: panel_3_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_3_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_4_oggi:
+       panel_4_today:
         friendly_name_template: " Panel 4 Energy "
         unique_id: panel_4_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_4_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_5_oggi:
+       panel_5_today:
         friendly_name_template: " Panel 5 Energy "
         unique_id: panel_5_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_5_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_6_oggi:
+       panel_6_today:
         friendly_name_template: " Panel 6 Energy "
         unique_id: panel_6_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_6_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_7_oggi:
+       panel_7_today:
         friendly_name_template: " Panel 7 Energy "
         unique_id: panel_7_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_7_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_8_oggi:
+       panel_8_today:
         friendly_name_template: " Panel 8 Energy "
         unique_id: panel_8_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_8_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_9_oggi:
+       panel_9_today:
         friendly_name_template: " Panel 9 Energy "
         unique_id: panel_9_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_9_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_10_oggi:
+       panel_10_today:
         friendly_name_template: " Panel 10 Energy "
         unique_id: panel_10_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_10_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_11_oggi:
+       panel_11_today:
         friendly_name_template: " Panel 11 Energy "
         unique_id: panel_11_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_11_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_11_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_12_oggi:
+       panel_12_today:
         friendly_name_template: " Panel 12 Energy "
         unique_id: panel_12_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_12_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_12_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_13_oggi:
+       panel_13_today:
         friendly_name_template: " Panel 3 Energy "
         unique_id: panel_13_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_13_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_13_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_14_oggi:
+       panel_14_today:
         friendly_name_template: " Panel 4 Energy "
         unique_id: panel_14_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_14_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_14_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_15_oggi:
+       panel_15_today:
         friendly_name_template: " Panel 15 Energy "
         unique_id: panel_15_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_15_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_15_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_16_oggi:
+       panel_16_today:
         friendly_name_template: " Panel 16 Energy "
         unique_id: panel_16_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_16_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_16_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_17_oggi:
+       panel_17_today:
         friendly_name_template: " Panel 17 Energy "
         unique_id: panel_17_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_17_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_17_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_18_oggi:
+       panel_18_today:
         friendly_name_template: " Panel 18 Energy "
         unique_id: panel_18_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_18_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_18_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_19_oggi:
+       panel_19_today:
         friendly_name_template: " Panel 19 Energy "
         unique_id: panel_9_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_9_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_20_oggi:
+       panel_20_today:
         friendly_name_template: " Panel 20 Energy "
         unique_id: panel_20_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_20_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_20_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_21_oggi:
+       panel_21_today:
         friendly_name_template: " Panel 21 Energy "
         unique_id: panel_21_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_21_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_21_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_22_oggi:
+       panel_22_today:
         friendly_name_template: " Panel 22 Energy "
         unique_id: panel_22_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_22_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_22_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_23_oggi:
+       panel_23_today:
         friendly_name_template: " Panel 23 Energy "
         unique_id: panel_23_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_23_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_23_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_24_oggi:
+       panel_24_today:
         friendly_name_template: " Panel 24 Energy "
         unique_id: panel_24_energy
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_24_f1.state | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_24_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
 
 
-################ PRODUZIONE TOTALE PANNELLI ################################################
-       produzione_panel_totale_oggi:
-        friendly_name_template: " Produzione Panel Totale Oggi "
-        unique_id: produzione_panel_totale_energy
+################ TOTAL PANEL PRODUCTION ################################################
+       total_panel_production_today:
+        friendly_name_template: " Total Panel Production Today "
+        unique_id: total_panel_production_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_1_oggi.state | float(0)) 
-        + (states.sensor.panel_2_oggi.state | float(0)) 
-        + (states.sensor.panel_3_oggi.state | float(0)) 
-        + (states.sensor.panel_4_oggi.state | float(0)) 
-        + (states.sensor.panel_5_oggi.state | float(0)) 
-        + (states.sensor.panel_6_oggi.state | float(0)) 
-        + (states.sensor.panel_7_oggi.state | float(0)) 
-        + (states.sensor.panel_8_oggi.state | float(0)) 
-        + (states.sensor.panel_9_oggi.state | float(0)) 
-        + (states.sensor.panel_10_oggi.state | float(0))
-        + (states.sensor.panel_11_oggi.state | float(0)) 
-        + (states.sensor.panel_12_oggi.state | float(0)) 
-        + (states.sensor.panel_13_oggi.state | float(0)) 
-        + (states.sensor.panel_14_oggi.state | float(0)) 
-        + (states.sensor.panel_15_oggi.state | float(0)) 
-        + (states.sensor.panel_16_oggi.state | float(0)) 
-        + (states.sensor.panel_17_oggi.state | float(0)) 
-        + (states.sensor.panel_18_oggi.state | float(0)) 
-        + (states.sensor.panel_19_oggi.state | float(0)) 
-        + (states.sensor.panel_20_oggi.state | float(0)) 
-        + (states.sensor.panel_21_oggi.state | float(0)) 
-        + (states.sensor.panel_22_oggi.state | float(0)) 
-        + (states.sensor.panel_23_oggi.state | float(0)) 
-        + (states.sensor.panel_24_oggi.state | float(0))) | round(3) }}"
+        value_template: "{{((states.sensor.panel_1_today.state | float(0)) 
+        + (states.sensor.panel_2_today.state | float(0)) 
+        + (states.sensor.panel_3_today.state | float(0)) 
+        + (states.sensor.panel_4_today.state | float(0)) 
+        + (states.sensor.panel_5_today.state | float(0)) 
+        + (states.sensor.panel_6_today.state | float(0)) 
+        + (states.sensor.panel_7_today.state | float(0)) 
+        + (states.sensor.panel_8_today.state | float(0)) 
+        + (states.sensor.panel_9_today.state | float(0)) 
+        + (states.sensor.panel_10_today.state | float(0))
+        + (states.sensor.panel_11_today.state | float(0)) 
+        + (states.sensor.panel_12_today.state | float(0)) 
+        + (states.sensor.panel_13_today.state | float(0)) 
+        + (states.sensor.panel_14_today.state | float(0)) 
+        + (states.sensor.panel_15_today.state | float(0)) 
+        + (states.sensor.panel_16_today.state | float(0)) 
+        + (states.sensor.panel_17_today.state | float(0)) 
+        + (states.sensor.panel_18_today.state | float(0)) 
+        + (states.sensor.panel_19_today.state | float(0)) 
+        + (states.sensor.panel_20_today.state | float(0)) 
+        + (states.sensor.panel_21_today.state | float(0)) 
+        + (states.sensor.panel_22_today.state | float(0)) 
+        + (states.sensor.panel_23_today.state | float(0)) 
+        + (states.sensor.panel_24_today.state | float(0))) | round(3) }}"
         unit_of_measurement: 'Wh'
 
-################ PERCENTUALE DI PRODUZIONE DEI PANNELLI ####################################
-       percentuale_produzione_panel_1_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 1 Oggi "
-        unique_id: percentuale_produzione_panel_1_energy
+################ PERCENTAGE OF PANEL PRODUCTION ####################################
+       production_percentage_panel_1_today:
+        friendly_name_template: " Production Percentage Panel 1 today "
+        unique_id: production_percentage_panel_1_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_1_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_1_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_2_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 2 Oggi "
-        unique_id: percentuale_produzione_panel_2_energy
+       production_percentage_panel_2_today:
+        friendly_name_template: " Production Percentage Panel 2 today "
+        unique_id: production_percentage_panel_2_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_2_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_2_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_3_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 3 Oggi "
-        unique_id: percentuale_produzione_panel_3_energy
+       production_percentage_panel_3_today:
+        friendly_name_template: " Production Percentage Panel 3 today "
+        unique_id: production_percentage_panel_3_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_3_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_3_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_4_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 4 Oggi "
-        unique_id: percentuale_produzione_panel_4_energy
+       production_percentage_panel_4_today:
+        friendly_name_template: " Production Percentage Panel 4 today "
+        unique_id: production_percentage_panel_4_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_4_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_4_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_5_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 5 Oggi "
-        unique_id: percentuale_produzione_panel_5_energy
+       production_percentage_panel_5_today:
+        friendly_name_template: " Production Percentage Panel 5 today "
+        unique_id: production_percentage_panel_5_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_5_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_5_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_6_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 6 Oggi "
-        unique_id: percentuale_produzione_panel_6_energy
+       production_percentage_panel_6_today:
+        friendly_name_template: " Production Percentage Panel 6 today "
+        unique_id: production_percentage_panel_6_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_6_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_6_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_7_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 7 Oggi "
-        unique_id: percentuale_produzione_panel_7_energy
+       production_percentage_panel_7_today:
+        friendly_name_template: " Production Percentage Panel 7 today "
+        unique_id: production_percentage_panel_7_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_7_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_7_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_8_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 8 Oggi "
-        unique_id: percentuale_produzione_panel_8_energy
+       production_percentage_panel_8_today:
+        friendly_name_template: " Production Percentage Panel 8 today "
+        unique_id: production_percentage_panel_8_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_8_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_8_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_9_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 9 Oggi "
-        unique_id: percentuale_produzione_panel_9_energy
+       production_percentage_panel_9_today:
+        friendly_name_template: " Production Percentage Panel 9 today "
+        unique_id: production_percentage_panel_9_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_9_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_9_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_10_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 10 Oggi "
-        unique_id: percentuale_produzione_panel_10_energy
+       production_percentage_panel_10_today:
+        friendly_name_template: " Production Percentage Panel 10 today "
+        unique_id: production_percentage_panel_10_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_10_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_10_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_11_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 11 Oggi "
-        unique_id: percentuale_produzione_panel_11_energy
+       production_percentage_panel_11_today:
+        friendly_name_template: " Production Percentage Panel 11 today "
+        unique_id: production_percentage_panel_11_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_11_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_11_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_12_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 12 Oggi "
-        unique_id: percentuale_produzione_panel_12_energy
+       production_percentage_panel_12_today:
+        friendly_name_template: " Production Percentage Panel 12 today "
+        unique_id: production_percentage_panel_12_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_12_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_12_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_13_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 13 Oggi "
-        unique_id: percentuale_produzione_panel_13_energy
+       production_percentage_panel_13_today:
+        friendly_name_template: " Production Percentage Panel 13 today "
+        unique_id: production_percentage_panel_13_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_13_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_13_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_14_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 14 Oggi "
-        unique_id: percentuale_produzione_panel_14_energy
+       production_percentage_panel_14_today:
+        friendly_name_template: " Production Percentage Panel 14 today "
+        unique_id: production_percentage_panel_14_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_14_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_14_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_15_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 15 Oggi "
-        unique_id: percentuale_produzione_panel_15_energy
+       production_percentage_panel_15_today:
+        friendly_name_template: " Production Percentage Panel 15 today "
+        unique_id: production_percentage_panel_15_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_15_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_15_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_16_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 16 Oggi "
-        unique_id: percentuale_produzione_panel_16_energy
+       production_percentage_panel_16_today:
+        friendly_name_template: " Production Percentage Panel 16 today "
+        unique_id: production_percentage_panel_16_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_16_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_16_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_17_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 17 Oggi "
-        unique_id: percentuale_produzione_panel_17_energy
+       production_percentage_panel_17_today:
+        friendly_name_template: " Production Percentage Panel 17 today "
+        unique_id: production_percentage_panel_17_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_17_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_17_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_18_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 18 Oggi "
-        unique_id: percentuale_produzione_panel_18_energy
+       production_percentage_panel_18_today:
+        friendly_name_template: " Production Percentage Panel 18 today "
+        unique_id: production_percentage_panel_18_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_18_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_18_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_19_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 19 Oggi "
-        unique_id: percentuale_produzione_panel_19_energy
+       production_percentage_panel_19_today:
+        friendly_name_template: " Production Percentage Panel 19 today "
+        unique_id: production_percentage_panel_19_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_19_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_19_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_20_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 20 Oggi "
-        unique_id: percentuale_produzione_panel_20_energy
+       production_percentage_panel_20_today:
+        friendly_name_template: " Production Percentage Panel 20 today "
+        unique_id: production_percentage_panel_20_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_20_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_20_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_21_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 20 Oggi "
-        unique_id: percentuale_produzione_panel_21_energy
+       production_percentage_panel_21_today:
+        friendly_name_template: " Production Percentage Panel 20 today "
+        unique_id: production_percentage_panel_21_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_21_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_21_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_22_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 20 Oggi "
-        unique_id: percentuale_produzione_panel_22_energy
+       production_percentage_panel_22_today:
+        friendly_name_template: " Production Percentage Panel 20 today "
+        unique_id: production_percentage_panel_22_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_22_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_22_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_23_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 20 Oggi "
-        unique_id: percentuale_produzione_panel_23_energy
+       production_percentage_panel_23_today:
+        friendly_name_template: " Production Percentage Panel 20 today "
+        unique_id: production_percentage_panel_23_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_23_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_23_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
-       percentuale_produzione_panel_24_oggi:
-        friendly_name_template: " Percentuale Produzione Panel 20 Oggi "
-        unique_id: percentuale_produzione_panel_24_energy
+       production_percentage_panel_24_today:
+        friendly_name_template: " Production Percentage Panel 20 today "
+        unique_id: production_percentage_panel_24_energy
         icon_template: mdi:counter
-        value_template: "{{((states.sensor.panel_24_oggi.state | float(0)) / (states.sensor.produzione_panel_totale_oggi.state | float(0))) * 100 | round(2) }}"
+        value_template: "{{((states.sensor.panel_24_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
 
-#------------------calcoli ieri-----------------------------------------##
+#------------------calculations yesterday-----------------------------------------##
 
-       panel_1_ieri:
-        friendly_name_template: " Panel 1 Energy Ieri "
-        unique_id: panel_1_energy_ieri
+       panel_1_yesterday:
+        friendly_name_template: " Panel 1 Energy yesterday "
+        unique_id: panel_1_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_1_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_1_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_2_ieri:
-        friendly_name_template: " Panel 2 Energy Ieri"
-        unique_id: panel_2_energy_ieri
+       panel_2_yesterday:
+        friendly_name_template: " Panel 2 Energy yesterday"
+        unique_id: panel_2_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_2_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_2_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_3_ieri:
-        friendly_name_template: " Panel 3 Energy Ieri"
-        unique_id: panel_3_energy_ieri
+       panel_3_yesterday:
+        friendly_name_template: " Panel 3 Energy yesterday"
+        unique_id: panel_3_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_3_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_3_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_4_ieri:
-        friendly_name_template: " Panel 4 Energy Ieri"
-        unique_id: panel_4_energy_ieri
+       panel_4_yesterday:
+        friendly_name_template: " Panel 4 Energy yesterday"
+        unique_id: panel_4_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_4_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_4_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_5_ieri:
-        friendly_name_template: " Panel 5 Energy Ieri"
-        unique_id: panel_5_energy_ieri
+       panel_5_yesterday:
+        friendly_name_template: " Panel 5 Energy yesterday"
+        unique_id: panel_5_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_5_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_5_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_6_ieri:
-        friendly_name_template: " Panel 6 Energy Ieri"
-        unique_id: panel_6_energy_ieri
+       panel_6_yesterday:
+        friendly_name_template: " Panel 6 Energy yesterday"
+        unique_id: panel_6_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_6_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_6_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_7_ieri:
-        friendly_name_template: " Panel 7 Energy Ieri"
-        unique_id: panel_7_energy_ieri
+       panel_7_yesterday:
+        friendly_name_template: " Panel 7 Energy yesterday"
+        unique_id: panel_7_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_7_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_7_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_8_ieri:
-        friendly_name_template: " Panel 8 Energy Ieri"
-        unique_id: panel_8_energy_ieri
+       panel_8_yesterday:
+        friendly_name_template: " Panel 8 Energy yesterday"
+        unique_id: panel_8_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_8_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_8_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_9_ieri:
-        friendly_name_template: " Panel 9 Energy Ieri"
-        unique_id: panel_9_energy_ieri
+       panel_9_yesterday:
+        friendly_name_template: " Panel 9 Energy yesterday"
+        unique_id: panel_9_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_9_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_9_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_10_ieri:
-        friendly_name_template: " Panel 10 Energy Ieri"
-        unique_id: panel_10_energy_ieri
+       panel_10_yesterday:
+        friendly_name_template: " Panel 10 Energy yesterday"
+        unique_id: panel_10_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_10_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_10_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_11_ieri:
-        friendly_name_template: " Panel 11 Energy Ieri "
-        unique_id: panel_11_energy_ieri
+       panel_11_yesterday:
+        friendly_name_template: " Panel 11 Energy yesterday "
+        unique_id: panel_11_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_11_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_11_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_12_ieri:
-        friendly_name_template: " Panel 12 Energy Ieri"
-        unique_id: panel_12_energy_ieri
+       panel_12_yesterday:
+        friendly_name_template: " Panel 12 Energy yesterday"
+        unique_id: panel_12_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_12_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_12_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_13_ieri:
-        friendly_name_template: " Panel 13 Energy Ieri"
-        unique_id: panel_13_energy_ieri
+       panel_13_yesterday:
+        friendly_name_template: " Panel 13 Energy yesterday"
+        unique_id: panel_13_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_13_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_13_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_14_ieri:
-        friendly_name_template: " Panel 14 Energy Ieri"
-        unique_id: panel_14_energy_ieri
+       panel_14_yesterday:
+        friendly_name_template: " Panel 14 Energy yesterday"
+        unique_id: panel_14_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_14_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_14_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_15_ieri:
-        friendly_name_template: " Panel 15 Energy Ieri"
-        unique_id: panel_15_energy_ieri
+       panel_15_yesterday:
+        friendly_name_template: " Panel 15 Energy yesterday"
+        unique_id: panel_15_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_15_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_15_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_16_ieri:
-        friendly_name_template: " Panel 6 Energy Ieri"
-        unique_id: panel_6_energy_ieri
+       panel_16_yesterday:
+        friendly_name_template: " Panel 6 Energy yesterday"
+        unique_id: panel_6_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_16_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_16_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_17_ieri:
-        friendly_name_template: " Panel 17 Energy Ieri"
-        unique_id: panel_17_energy_ieri
+       panel_17_yesterday:
+        friendly_name_template: " Panel 17 Energy yesterday"
+        unique_id: panel_17_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_17_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_17_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_18_ieri:
-        friendly_name_template: " Panel 18 Energy Ieri"
-        unique_id: panel_18_energy_ieri
+       panel_18_yesterday:
+        friendly_name_template: " Panel 18 Energy yesterday"
+        unique_id: panel_18_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_18_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_18_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_19_ieri:
-        friendly_name_template: " Panel 19 Energy Ieri"
-        unique_id: panel_19_energy_ieri
+       panel_19_yesterday:
+        friendly_name_template: " Panel 19 Energy yesterday"
+        unique_id: panel_19_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_19_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_19_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_20_ieri:
-        friendly_name_template: " Panel 20 Energy Ieri"
-        unique_id: panel_20_energy_ieri
+       panel_20_yesterday:
+        friendly_name_template: " Panel 20 Energy yesterday"
+        unique_id: panel_20_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_20_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_20_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_21_ieri:
-        friendly_name_template: " Panel 21 Energy Ieri"
-        unique_id: panel_21_energy_ieri
+       panel_21_yesterday:
+        friendly_name_template: " Panel 21 Energy yesterday"
+        unique_id: panel_21_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_21_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_21_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_22_ieri:
-        friendly_name_template: " Panel 22 Energy Ieri"
-        unique_id: panel_22_energy_ieri
+       panel_22_yesterday:
+        friendly_name_template: " Panel 22 Energy yesterday"
+        unique_id: panel_22_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_22_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_22_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_23_ieri:
-        friendly_name_template: " Panel 23 Energy Ieri"
-        unique_id: panel_23_energy_ieri
+       panel_23_yesterday:
+        friendly_name_template: " Panel 23 Energy yesterday"
+        unique_id: panel_23_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_23_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_23_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-       panel_24_ieri:
-        friendly_name_template: " Panel 24 Energy Ieri"
-        unique_id: panel_24_energy_ieri
+       panel_24_yesterday:
+        friendly_name_template: " Panel 24 Energy yesterday"
+        unique_id: panel_24_energy_yesterday
         icon_template: mdi:counter
-        value_template: "{{ states.sensor.produzione_giornaliero_panel_24_f1.attributes.last_period | float * 1000 }}"
+        value_template: "{{ states.sensor.daily_production_panel_24_f1.attributes.last_period | float * 1000 }}"
         unit_of_measurement: 'Wh'
-
-
 
 
 
-##--------------------AUTOMAZIONI---------------------##      
+
+
+##--------------------AUTOMATIONS---------------------##      
 automation:
-#####################controllo aggiornamenti############################
-  - alias: controllo versione pkpanelsolar
+##################### check for updates ############################
+  - alias: check version of pk panel solar
     trigger:
     - platform: time
       at: '18:00'
@@ -741,13 +740,13 @@ automation:
       platform: homeassistant
     condition:
       - condition: template
-        value_template: "{{ states('sensor.versione_pk_panel_solar') > (state_attr('input_number.costo_f1', 'Version')) }}"
+        value_template: "{{ states('sensor.version_pk_panel_solar') > (state_attr('input_number.cost_f1', 'Version')) }}"
     action:
     - service: input_boolean.turn_on
       data:
-        entity_id: input_boolean.versione_pkpanelsolar
+        entity_id: input_boolean.version_pkpanelsolar
 
-  - alias: controllo versione reset pkpanelsolar
+  - alias: check version reset pk panel solar
     trigger:
     - platform: time
       at: '18:05'
@@ -755,14 +754,14 @@ automation:
       platform: homeassistant
     condition:
       - condition: template
-        value_template: "{{ states('sensor.versione_pk_panel_solar') == (state_attr('input_number.costo_f1', 'Version')) }}"
+        value_template: "{{ states('sensor.version_pk_panel_solar') == (state_attr('input_number.cost_f1', 'Version')) }}"
     action:
     - service: input_boolean.turn_off
       data:
-        entity_id: input_boolean.versione_pkpanelsolar
+        entity_id: input_boolean.version_pkpanelsolar
 
 
-#invio messaggio storico
+#send historical message
 
 #################################
  
@@ -782,22 +781,22 @@ script:
     sequence:
       - service: notify.persistent_notification
         data:
-          message: 'Aggiorno il pacchetto... attendere'
+          message: 'Updating the package... please wait'
       - service: downloader.download_file
         data:
-          url: 'https://raw.githubusercontent.com/stepsolar/hassio-package-panel-solar/master/pkg_panelsolar.yaml'
+          url: 'https://raw.githubusercontent.com/DeFlanko/hassio-package-panel-solar/master/yaml/pkg_panelsolar.yaml'
           overwrite: true
       - delay: 5      
       - service: downloader.download_file
         data:
-          url: 'https://raw.githubusercontent.com/stepsolar/hassio-package-panel-solar/master/lovelace-dash-light.txt'
+          url: 'https://raw.githubusercontent.com/DeFlanko/hassio-package-panel-solar/master/lovelace-dash-light.txt'
           overwrite: true
       - delay: 5
       #- service: homeassistant.restart
       - delay: 5
       - service: notify.persistent_notification
         data:
-          message: 'Package Panel Solar Aggiornato. Ricarico i servizi'
+          message: 'Panel Solar Package Updated. Reloading the services'
       - delay: 1  
       # - service: homeassistant.restart
       - service: automation.reload
@@ -808,8 +807,8 @@ script:
       - service: template.reload
       - service: notify.persistent_notification
         data:
-          message: 'Servizi Ricaricati. ricarico in ultimo gli script'
+          message: 'Services Reloaded. Reloading the scripts last'
       - service: script.reload
       - service: notify.notify
         data:
-          message: 'Aggiornamento Pk Panel Solar Fatto, se vuoi puoi offrire un caffe al creatore del pacchetto a questo link https://www.buymeacoffee.com/stepsolar'
+          message: 'Pk Panel Solar Update Done, if you want you can buy a coffee to the package creator at this link https://www.buymeacoffee.com/stepsolar'
