@@ -3,7 +3,7 @@ _This version has 24 Panels_
 
 OP:[@stepsolar](https://github.com/stepsolar/) <!-- omit in toc -->
 
-![Header](https://github.com/DeFlanko/hassio-package-panel-solar/blob/main/Solar_Layout.svg)
+![Header](https://github.com/DeFlanko/hassio-package-panel-solar/blob/main/img/Solar_Layout.svg)
 
 **INSTALLATION**
 
