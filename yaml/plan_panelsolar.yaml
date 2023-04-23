@@ -8,123 +8,333 @@ views:
     cards:
       - config:
           image:
-            location: /local/floorplan/solar/panelsunpower.svg
+            location: /local/floorplan/solar/Solar_Layout.svg
           rules:
             - name: wattpower1
               element: wattpanel1
-              entity: sensor.power_1_1_1
+              entity: sensor.power_1_0_25
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "w"}
             - name: whpower1
               element: whpanel1
-              entity: sensor.panel_1_oggi
+              entity: sensor.panel_1_today
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "wh"}
             - name: wattpower2
               element: wattpanel2
-              entity: sensor.power_1_1_2
+              entity: sensor.power_1_0_26
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "w"}
             - name: whpower2
               element: whpanel2
-              entity: sensor.panel_2_oggi
+              entity: sensor.panel_2_today
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "wh"}
             - name: wattpower3
               element: wattpanel3
-              entity: sensor.power_1_1_3
+              entity: sensor.power_1_0_27
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "w"}
             - name: whpower3
               element: whpanel3
-              entity: sensor.panel_3_oggi
+              entity: sensor.panel_3_today
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "wh"}
             - name: wattpower4
               element: wattpanel4
-              entity: sensor.power_1_1_4
+              entity: sensor.power_1_0_28
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "w"}
             - name: whpower4
               element: whpanel4
-              entity: sensor.panel_4_oggi
+              entity: sensor.panel_4_today
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "wh"}
             - name: wattpower5
               element: wattpanel5
-              entity: sensor.power_1_1_5
+              entity: sensor.power_1_0_29
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "w"}
             - name: whpower5
               element: whpanel5
-              entity: sensor.panel_5_oggi
+              entity: sensor.panel_5_today
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "wh"}
             - name: wattpower6
               element: wattpanel6
-              entity: sensor.power_1_1_6
+              entity: sensor.power_1_0_30
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "w"}
             - name: whpower6
               element: whpanel6
-              entity: sensor.panel_6_oggi
+              entity: sensor.panel_6_today
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "wh"}
             - name: wattpower7
               element: wattpanel7
-              entity: sensor.power_1_1_7
+              entity: sensor.power_1_0_31
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "w"}
             - name: whpower7
               element: whpanel7
-              entity: sensor.panel_7_oggi
+              entity: sensor.panel_7_today
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "wh"}
             - name: wattpower8
               element: wattpanel8
-              entity: sensor.power_1_1_8
+              entity: sensor.power_1_0_32
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "w"}
             - name: whpower8
               element: whpanel8
-              entity: sensor.panel_8_oggi
+              entity: sensor.panel_8_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: whpower9
+              element: whpanel9
+              entity: sensor.panel_9_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower10
+              element: wattpanel10
+              entity: sensor.power_1_0_34
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower10
+              element: whpanel10
+              entity: sensor.panel_10_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower11
+              element: wattpanel11
+              entity: sensor.power_1_0_35
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower11
+              element: whpanel11
+              entity: sensor.panel_11_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower12
+              element: wattpanel12
+              entity: sensor.power_1_0_36
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower12
+              element: whpanel12
+              entity: sensor.panel_12_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower113
+              element: wattpanel13
+              entity: sensor.power_1_0_37
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower13
+              element: whpanel13
+              entity: sensor.panel_13_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower14
+              element: wattpanel14
+              entity: sensor.power_1_0_38
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower14
+              element: whpanel14
+              entity: sensor.panel_14_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower15
+              element: wattpanel15
+              entity: sensor.power_1_0_39
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower15
+              element: whpanel15
+              entity: sensor.panel_15_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower16
+              element: wattpanel16
+              entity: sensor.power_1_0_40
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower16
+              element: whpanel16
+              entity: sensor.panel_16_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower17
+              element: wattpanel17
+              entity: sensor.power_1_0_41
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower17
+              element: whpanel17
+              entity: sensor.panel_17_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower18
+              element: wattpanel18
+              entity: sensor.power_1_0_42
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower18
+              element: whpanel18
+              entity: sensor.panel_18_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: whpower19
+              element: whpanel19
+              entity: sensor.panel_19_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower20
+              element: wattpanel20
+              entity: sensor.power_1_0_44
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower20
+              element: whpanel20
+              entity: sensor.panel_20_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower21
+              element: wattpanel21
+              entity: sensor.power_1_0_45
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower21
+              element: whpanel21
+              entity: sensor.panel_21_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower22
+              element: wattpanel22
+              entity: sensor.power_1_0_46
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower22
+              element: whpanel22
+              entity: sensor.panel_22_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower23
+              element: wattpanel23
+              entity: sensor.power_1_0_47
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower23
+              element: whpanel23
+              entity: sensor.panel_23_today
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "wh"}
+            - name: wattpower24
+              element: wattpanel24
+              entity: sensor.power_1_0_48
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
+            - name: whpower24
+              element: whpanel24
+              entity: sensor.panel_24_today
               state_action:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "wh"}
             - name: panel1
               element: colorblu1
-              entity: sensor.power_1_1_1
+              entity: sensor.power_1_0_25
               state_action:
                 action: call-service
                 service: floorplan.style_set
@@ -139,7 +349,7 @@ views:
                     #2672BF"; else return "fill: #2D89E5";
             - name: panel2
               element: colorblu2
-              entity: sensor.power_1_1_2
+              entity: sensor.power_1_0_26
               state_action:
                 action: call-service
                 service: floorplan.style_set
@@ -155,7 +365,7 @@ views:
                     else return "fill: #3091F2";
             - name: panel3
               element: colorblu3
-              entity: sensor.power_1_1_3
+              entity: sensor.power_1_0_27
               state_action:
                 action: call-service
                 service: floorplan.style_set
@@ -171,7 +381,7 @@ views:
                     return "fill: #3091F2";
             - name: panel4
               element: colorblu4
-              entity: sensor.power_1_1_4
+              entity: sensor.power_1_0_28
               state_action:
                 action: call-service
                 service: floorplan.style_set
@@ -187,7 +397,7 @@ views:
                     return "fill: #3091F2";
             - name: panel5
               element: colorblu5
-              entity: sensor.power_1_1_5
+              entity: sensor.power_1_0_29
               state_action:
                 action: call-service
                 service: floorplan.style_set
@@ -203,7 +413,7 @@ views:
                     return "fill: #3091F2";
             - name: panel6
               element: colorblu6
-              entity: sensor.power_1_1_6
+              entity: sensor.power_1_0_30
               state_action:
                 action: call-service
                 service: floorplan.style_set
@@ -219,7 +429,7 @@ views:
                     return "fill: #3091F2"; 
             - name: panel7
               element: colorblu7
-              entity: sensor.power_1_1_7
+              entity: sensor.power_1_0_31
               state_action:
                 action: call-service
                 service: floorplan.style_set
@@ -235,7 +445,262 @@ views:
                     return "fill: #3091F2";
             - name: panel8
               element: colorblu8
-              entity: sensor.power_1_1_8
+              entity: sensor.power_1_0_32
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";
+            - name: panel9
+              element: colorblu9
+              entity: sensor.power_1_0_33
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";
+            - name: panel10
+              element: colorblu10
+              entity: sensor.power_1_0_34
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";
+            - name: panel11
+              element: colorblu11
+              entity: sensor.power_1_0_35
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else return "fill: #2D89E5";
+            - name: panel12
+              element: colorblu12
+              entity: sensor.power_1_0_36
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5";  else if (temp <= 250) return "fill:
+                    #2672BF";  else if (temp <= 280) return "fill: #2D89E5";
+                    else return "fill: #3091F2";
+            - name: panel13
+              element: colorblu13
+              entity: sensor.power_1_0_37
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";
+            - name: panel14
+              element: colorblu14
+              entity: sensor.power_1_0_38
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";
+            - name: panel15
+              element: colorblu15
+              entity: sensor.power_1_0_39
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";
+            - name: panel16
+              element: colorblu16
+              entity: sensor.power_1_0_40
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2"; 
+            - name: panel17
+              element: colorblu17
+              entity: sensor.power_1_0_41
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";
+            - name: panel18
+              element: colorblu18
+              entity: sensor.power_1_0_42
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";
+            - name: panel19
+              element: colorblu19
+              entity: sensor.power_1_0_43
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";
+            - name: panel20
+              element: colorblu20
+              entity: sensor.power_1_0_44
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";
+            - name: panel21
+              element: colorblu21
+              entity: sensor.power_1_0_45
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";
+            - name: panel22
+              element: colorblu22
+              entity: sensor.power_1_0_46
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";
+            - name: panel23
+              element: colorblu23
+              entity: sensor.power_1_0_47
+              state_action:
+                action: call-service
+                service: floorplan.style_set
+                service_data:
+                  style: >
+                    > var temp = parseFloat(entity.state);  if (temp <= 50)
+                    return "fill: #02070C";  else if (temp <= 70) return "fill:
+                    #071626"; else if (temp <= 100) return "fill: #0C263F"; else
+                    if (temp <= 150) return "fill: #194C7F"; else if (temp <=
+                    170) return "fill: #1E5B99"; else if (temp <= 200) return
+                    "fill: #2163A5"; else if (temp <= 250) return "fill:
+                    #2672BF"; else if (temp <= 280) return "fill: #2D89E5"; else
+                    return "fill: #3091F2";            
+            - name: panel24
+              element: colorblu24
+              entity: sensor.power_1_0_48
               state_action:
                 action: call-service
                 service: floorplan.style_set
@@ -254,4 +719,8 @@ views:
           stylesheet: /local/floorplan/solar/panelsunpower.css
         full_height: true
         type: custom:floorplan-card
-
+defaults:
+  tap_action: more-info
+stylesheet: /local/floorplan/solar/panelsunpower.css
+full_height: true
+type: custom:floorplan-card
