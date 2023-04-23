@@ -328,13 +328,13 @@ sensor:
         value_template: "{{ states.sensor.daily_production_panel_12_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
        panel_13_today:
-        friendly_name_template: " Panel 3 Energy "
+        friendly_name_template: " Panel 13 Energy "
         unique_id: panel_13_energy
         icon_template: mdi:counter
         value_template: "{{ states.sensor.daily_production_panel_13_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
        panel_14_today:
-        friendly_name_template: " Panel 4 Energy "
+        friendly_name_template: " Panel 14 Energy "
         unique_id: panel_14_energy
         icon_template: mdi:counter
         value_template: "{{ states.sensor.daily_production_panel_14_f1.state | float * 1000 }}"
@@ -365,7 +365,7 @@ sensor:
         unit_of_measurement: 'Wh'
        panel_19_today:
         friendly_name_template: " Panel 19 Energy "
-        unique_id: panel_9_energy
+        unique_id: panel_19_energy
         icon_template: mdi:counter
         value_template: "{{ states.sensor.daily_production_panel_9_f1.state | float * 1000 }}"
         unit_of_measurement: 'Wh'
