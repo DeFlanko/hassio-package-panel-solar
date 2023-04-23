@@ -554,25 +554,25 @@ sensor:
         value_template: "{{((states.sensor.panel_20_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
        production_percentage_panel_21_today:
-        friendly_name_template: " Production Percentage Panel 20 today "
+        friendly_name_template: " Production Percentage Panel 21 today "
         unique_id: production_percentage_panel_21_energy
         icon_template: mdi:counter
         value_template: "{{((states.sensor.panel_21_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
        production_percentage_panel_22_today:
-        friendly_name_template: " Production Percentage Panel 20 today "
+        friendly_name_template: " Production Percentage Panel 22 today "
         unique_id: production_percentage_panel_22_energy
         icon_template: mdi:counter
         value_template: "{{((states.sensor.panel_22_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
        production_percentage_panel_23_today:
-        friendly_name_template: " Production Percentage Panel 20 today "
+        friendly_name_template: " Production Percentage Panel 23 today "
         unique_id: production_percentage_panel_23_energy
         icon_template: mdi:counter
         value_template: "{{((states.sensor.panel_23_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
         unit_of_measurement: '%'
        production_percentage_panel_24_today:
-        friendly_name_template: " Production Percentage Panel 20 today "
+        friendly_name_template: " Production Percentage Panel 24 today "
         unique_id: production_percentage_panel_24_energy
         icon_template: mdi:counter
         value_template: "{{((states.sensor.panel_24_today.state | float(0)) / (states.sensor.produzione_panel_totale_today.state | float(0))) * 100 | round(2) }}"
