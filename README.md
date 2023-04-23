@@ -1,7 +1,7 @@
 # Package Panel Solar Optimizer Solaredge Home-Assistant 
 _This version has 24 Panels_
 
-![Header](https://github.com/DeFlanko/hassio-package-panel-solar/blob/main/svg/Solar_Layout.svg)
+![Header](https://github.com/DeFlanko/hassio-package-panel-solar/blob/main/doc/Solar%20Panel.png)
 
 **INSTALLATION**
 
