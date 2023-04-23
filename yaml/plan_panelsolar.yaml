@@ -122,6 +122,13 @@ views:
                 action: call-service
                 service: floorplan.text_set
                 service_data: ${(entity.state) + "wh"}
+            - name: wattpower9
+              element: wattpanel9
+              entity: sensor.power_1_0_33
+              state_action:
+                action: call-service
+                service: floorplan.text_set
+                service_data: ${(entity.state) + "w"}
             - name: whpower9
               element: whpanel9
               entity: sensor.panel_9_today
