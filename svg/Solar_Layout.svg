@@ -26,17 +26,18 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="1.8737993"
-     inkscape:cx="275.91001"
-     inkscape:cy="448.82074"
+     inkscape:zoom="2.6499524"
+     inkscape:cx="380.95023"
+     inkscape:cy="112.45485"
      inkscape:window-width="2560"
      inkscape:window-height="1369"
      inkscape:window-x="1912"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg452" />
+     inkscape:current-layer="svg452"
+     showguides="true" />
   <g
-     id="Layer1000">
+     id="background">
     <path
        d="m -5.0325,756.24 h 760.5 V -4.26 h -760.5 z"
        style="fill:#262626;fill-rule:evenodd;stroke-width:0.24;stroke-linecap:round;stroke-linejoin:round"
@@ -49,19 +50,19 @@
   <path
      d="m 355.62,571.62 h -103.5 v -76.5"
      style="fill:none;fill-opacity:0.5;stroke:#ffc000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-     id="path7" />
+     id="Pipe2" />
   <path
      d="m 391.62,517.62 v -13.5 h 306 v -40.5"
      style="fill:none;fill-opacity:0.5;stroke:#ffc000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-     id="path9" />
+     id="Pipe1" />
   <path
      d="m 270.12,234.12 v -108"
      style="fill:none;fill-opacity:0.5;stroke:#ffc000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-     id="path11" />
+     id="pipe4" />
   <path
      d="m 198.12,459.12 h -13.5 v -18 h -18"
      style="fill:none;fill-opacity:0.5;stroke:#ffc000;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
-     id="Pipe1" />
+     id="Pipe3" />
   <g
      id="Panel1">
     <path
@@ -1075,6 +1076,246 @@
        fill-opacity="1"
        stroke-opacity="1"
        id="tspan444">000.00w</tspan></text>
+  <text
+     x="362.40659"
+     y="733.00452"
+     id="PanelID1"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8">ID</tspan></text>
+  <text
+     x="438.211"
+     y="732.88928"
+     id="PanelID2"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3">ID</tspan></text>
+  <text
+     x="516.12756"
+     y="732.82452"
+     id="PanelID3"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5">ID</tspan></text>
+  <text
+     x="590.8421"
+     y="732.62506"
+     id="PanelID4"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5">ID</tspan></text>
+  <text
+     x="667.15759"
+     y="732.66827"
+     id="PanelID5"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8">ID</tspan></text>
+  <text
+     x="361.89545"
+     y="621.35126"
+     id="PanelID6"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2">ID</tspan></text>
+  <text
+     x="667.69128"
+     y="459.11401"
+     id="PanelID7"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4">ID</tspan></text>
+  <text
+     x="666.22498"
+     y="347.44122"
+     id="PanelID8"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3">ID</tspan></text>
+  <text
+     x="666.22498"
+     y="234.43681"
+     id="PanelID9"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2">ID</tspan></text>
+  <text
+     x="667.15759"
+     y="121.83137"
+     id="PanelID10"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-6">ID</tspan></text>
+  <text
+     x="555.61951"
+     y="85.541473"
+     id="PanelID11"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8">ID</tspan></text>
+  <text
+     x="202.86028"
+     y="490.06717"
+     id="PanelID12"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8">ID</tspan></text>
+  <text
+     x="203.92764"
+     y="413.75162"
+     id="PanelID13"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8-9">ID</tspan></text>
+  <text
+     x="239.15019"
+     y="337.4361"
+     id="PanelID14"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8-9-1">ID</tspan></text>
+  <text
+     x="239.68387"
+     y="121.83137"
+     id="PanelID15"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8-9-1-6">ID</tspan></text>
+  <text
+     x="315.46573"
+     y="121.29768"
+     id="PanelID16"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8-9-1-6-8">ID</tspan></text>
+  <text
+     x="392.31497"
+     y="121.29771"
+     id="PanelID17"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8-9-1-6-8-0">ID</tspan></text>
+  <text
+     x="98.793655"
+     y="490.60083"
+     id="PanelID18"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8-9-1-6-8-0-0">ID</tspan></text>
+  <text
+     x="21.944447"
+     y="490.60083"
+     id="PanelID19"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8-9-1-6-8-0-0-3">ID</tspan></text>
+  <text
+     x="99.861008"
+     y="377.99539"
+     id="PanelID20"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8-9-1-6-8-0-0-3-9">ID</tspan></text>
+  <text
+     x="99.860985"
+     y="265.38995"
+     id="PanelID21"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8-9-1-6-8-0-0-3-9-5">ID</tspan></text>
+  <text
+     x="24.079147"
+     y="265.38995"
+     id="PanelID22"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8-9-1-6-8-0-0-3-9-5-6">ID</tspan></text>
+  <text
+     x="99.327316"
+     y="152.78452"
+     id="PanelID23"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8-9-1-6-8-0-0-3-9-5-6-9">ID</tspan></text>
+  <text
+     x="22.744949"
+     y="152.78453"
+     id="PanelID24"><tspan
+       font-family="Calibri"
+       font-size="14px"
+       fill="#ffffff"
+       fill-opacity="1"
+       stroke-opacity="1"
+       id="tspan444-8-3-5-9-5-8-2-4-3-2-8-8-9-1-6-8-0-0-3-9-5-6-9-7">ID</tspan></text>
   <text
      x="30"
      y="105.93"
