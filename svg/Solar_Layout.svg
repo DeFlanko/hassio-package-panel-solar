@@ -5,7 +5,7 @@
    height="756.23999"
    id="svg452"
    viewBox="0 0 751.73999 756.23999"
-   sodipodi:docname="Solar_Layout_v2.svg"
+   sodipodi:docname="Solar_Layout.svg"
    inkscape:export-filename="Solar_Layout_v2.svg"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
@@ -26,18 +26,19 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      showgrid="false"
-     inkscape:zoom="2.6499524"
-     inkscape:cx="380.95023"
-     inkscape:cy="112.45485"
-     inkscape:window-width="2560"
-     inkscape:window-height="1369"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
+     inkscape:zoom="1.8737993"
+     inkscape:cx="431.4763"
+     inkscape:cy="556.08943"
+     inkscape:window-width="1920"
+     inkscape:window-height="1009"
+     inkscape:window-x="-8"
+     inkscape:window-y="104"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg452"
      showguides="true" />
   <g
-     id="background">
+     id="background"
+     transform="matrix(0.99508858,0,0,1.0000008,-0.02501173,-2.9169658e-4)">
     <path
        d="m -5.0325,756.24 h 760.5 V -4.26 h -760.5 z"
        style="fill:#262626;fill-rule:evenodd;stroke-width:0.24;stroke-linecap:round;stroke-linejoin:round"
@@ -98,17 +99,6 @@
          style="fill:none;stroke:#ffffff;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none"
          id="path27" />
     </g>
-    <text
-       x="494.62"
-       y="684.12"
-       transform="rotate(90,544.62,684.12)"
-       id="text32"><tspan
-         font-family="Calibri"
-         font-size="10px"
-         fill="#000000"
-         fill-opacity="1"
-         stroke-opacity="1"
-         id="tspan30">anel</tspan></text>
   </g>
   <g
      id="Panel4">
