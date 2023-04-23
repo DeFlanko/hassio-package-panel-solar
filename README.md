@@ -18,7 +18,7 @@ The Origional repo was in italian so I spent the effort in converting that to En
 
 1. Install the Integration [SolaredgeOptimizers](https://github.com/ProudElm/solaredgeoptimizers) <!-- omit in toc -->
    
-   1a. If you get "unavialable" on any of the values -- you may need to edit the ```sensor.py```, line 148, from 60 to 300.
+   1a. If you get "unavialable" on any of the values -- you may need to edit the ```sensor.py```, [from 60 to 300](https://github.com/ProudElm/solaredgeoptimizers/issues/47).
 
 2. Install the Integration [HA Floorplan](https://github.com/ExperienceLovelace/ha-floorplan) <!-- omit in toc -->
 
