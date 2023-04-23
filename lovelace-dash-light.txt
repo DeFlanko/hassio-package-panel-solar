@@ -1,22 +1,22 @@
 type: custom:config-template-card
 variables:
-  - states['sensor.optimizer_voltage_1_1_1'].state
-  - states['sensor.optimizer_voltage_1_1_2'].state
-  - states['sensor.optimizer_voltage_1_1_3'].state
-  - states['sensor.optimizer_voltage_1_1_4'].state
-  - states['sensor.optimizer_voltage_1_1_5'].state
-  - states['sensor.optimizer_voltage_1_1_6'].state
-  - states['sensor.optimizer_voltage_1_1_7'].state
-  - states['sensor.optimizer_voltage_1_1_8'].state
+  - states['sensor.optimizer_voltage_1_0_25'].state
+  - states['sensor.optimizer_voltage_1_0_26'].state
+  - states['sensor.optimizer_voltage_1_0_27'].state
+  - states['sensor.optimizer_voltage_1_0_28'].state
+  - states['sensor.optimizer_voltage_1_0_29'].state
+  - states['sensor.optimizer_voltage_1_0_30'].state
+  - states['sensor.optimizer_voltage_1_0_31'].state
+  - states['sensor.optimizer_voltage_1_0_32'].state
 entities:
-  - sensor.optimizer_voltage_1_1_1
-  - sensor.optimizer_voltage_1_1_2
-  - sensor.optimizer_voltage_1_1_3
-  - sensor.optimizer_voltage_1_1_4
-  - sensor.optimizer_voltage_1_1_5
-  - sensor.optimizer_voltage_1_1_6
-  - sensor.optimizer_voltage_1_1_7
-  - sensor.optimizer_voltage_1_1_8
+  - sensor.optimizer_voltage_1_0_25
+  - sensor.optimizer_voltage_1_0_26
+  - sensor.optimizer_voltage_1_0_27
+  - sensor.optimizer_voltage_1_0_28
+  - sensor.optimizer_voltage_1_0_29
+  - sensor.optimizer_voltage_1_0_30
+  - sensor.optimizer_voltage_1_0_31
+  - sensor.optimizer_voltage_1_0_32
 card:
   type: picture-elements
   elements:
