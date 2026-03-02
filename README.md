@@ -16,7 +16,7 @@ The Origional repo was in italian so I spent the effort in converting that to En
 
 # **Installation Steps**
 
-1. Install the Integration [SolaredgeOptimizers](https://github.com/ProudElm/solaredgeoptimizers) <!-- omit in toc -->
+1. Install the Integration [SolaredgeOptimizers](https://github.com/AndrewTapp/solaredgeoptimizers) <!-- omit in toc -->
    
    1a. If you get "unavialable" on any of the values -- you may need to edit the ```sensor.py```, [from 60 to 300](https://github.com/ProudElm/solaredgeoptimizers/issues/47).
 
